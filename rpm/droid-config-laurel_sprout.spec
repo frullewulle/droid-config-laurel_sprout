@@ -1,15 +1,15 @@
 # These and other macros are documented in
 # ../droid-configs-device/droid-configs.inc
-%define device ginkgo
+%define device laurel_sprout
 %define vendor xiaomi
 %define vendor_pretty Xiaomi
-%define device_pretty Redmi Note 8
+%define device_pretty Mi A3
 %define dcd_path ./
 # Adjust this for your device
 %define pixel_ratio 1.5
 # We assume most devices will
 %define have_modem 1
-%define android_version_major 9
+%define android_version_major 10
 
 # Device-specific usb-moded configuration
 Provides: usb-moded-configs
@@ -32,5 +32,5 @@ Obsoletes: gecko-camera-droid-plugin
 %define ofono_disable_plugins bluez4,dun_gw_bluez4,hfp_ag_bluez4,hfp_bluez4,dun_gw_bluez5,hfp_bluez5
 
 %include droid-configs-device/droid-configs.inc
-%include patterns/patterns-sailfish-device-adaptation-ginkgo.inc
-%include patterns/patterns-sailfish-device-configuration-ginkgo.inc
+%include patterns/patterns-sailfish-device-adaptation-laurel_sprout.inc
+%include patterns/patterns-sailfish-device-configuration-laurel_sprout.inc
