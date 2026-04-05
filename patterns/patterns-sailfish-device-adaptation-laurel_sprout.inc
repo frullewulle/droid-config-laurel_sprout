@@ -1,10 +1,10 @@
-%package -n patterns-sailfish-device-adaptation-ginkgo
-Summary: Jolla HW Adaptation ginkgo
-Requires: droid-hal-ginkgo
-Requires: droid-hal-ginkgo-img-boot
-Requires: droid-hal-ginkgo-kernel-modules
-Requires: droid-hal-ginkgo-kernel-dtbo
-Requires: droid-hal-ginkgo-tools
+%package -n patterns-sailfish-device-adaptation-laurel_sprout
+Summary: Jolla HW Adaptation laurel_sprout
+Requires: droid-hal-laurel_sprout
+Requires: droid-hal-laurel_sprout-img-boot
+Requires: droid-hal-laurel_sprout-kernel-modules
+Requires: droid-hal-laurel_sprout-kernel-dtbo
+Requires: droid-hal-laurel_sprout-tools
 
 # Hybris packages
 Requires: libhybris-libEGL
@@ -88,7 +88,7 @@ Requires: droid-biometry-fp
 
 Recommends: libhybris-tests
 
-%description -n patterns-sailfish-device-adaptation-ginkgo
-Pattern with packages for ginkgo HW Adaptation
+%description -n patterns-sailfish-device-adaptation-laurel_sprout
+Pattern with packages for laurel_sprout HW Adaptation
 
-%files -n patterns-sailfish-device-adaptation-ginkgo
+%files -n patterns-sailfish-device-adaptation-laurel_sprout
