@@ -1,15 +1,15 @@
-%package -n patterns-sailfish-device-configuration-ginkgo
-Summary: Jolla Configuration ginkgo
-Requires: patterns-sailfish-device-configuration-common-ginkgo
-Requires: patterns-sailfish-device-adaptation-ginkgo
+%package -n patterns-sailfish-device-configuration-laurel_sprout
+Summary: Jolla Configuration laurel_sprout
+Requires: patterns-sailfish-device-configuration-common-laurel_sprout
+Requires: patterns-sailfish-device-adaptation-laurel_sprout
 
-Requires: droid-config-ginkgo-sailfish
-Requires: droid-config-ginkgo-pulseaudio-settings
-Requires: droid-config-ginkgo-policy-settings
-Requires: droid-config-ginkgo-preinit-plugin
-Requires: droid-config-ginkgo-flashing
-Requires: droid-config-ginkgo-bluez5
-Requires: droid-hal-version-ginkgo
+Requires: droid-config-laurel_sprout-sailfish
+Requires: droid-config-laurel_sprout-pulseaudio-settings
+Requires: droid-config-laurel_sprout-policy-settings
+Requires: droid-config-laurel_sprout-preinit-plugin
+Requires: droid-config-laurel_sprout-flashing
+Requires: droid-config-laurel_sprout-bluez5
+Requires: droid-hal-version-laurel_sprout
 
 # For devices with cellular modem. Those without one, please comment out:
 Requires: patterns-sailfish-cellular-apps
@@ -80,7 +80,7 @@ Recommends: jolla-rnd-device
 Requires: gnu-bash
 Obsoletes: busybox-symlinks-bash
 
-%description -n patterns-sailfish-device-configuration-ginkgo
-Pattern with packages for ginkgo configurations
+%description -n patterns-sailfish-device-configuration-laurel_sprout
+Pattern with packages for laurel_sprout configurations
 
-%files -n patterns-sailfish-device-configuration-ginkgo
+%files -n patterns-sailfish-device-configuration-laurel_sprout
